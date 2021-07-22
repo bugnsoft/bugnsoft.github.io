@@ -1,8 +1,0 @@
-<map id="MainMenu" name="MainMenu">
-<area shape="rect" id="node1" title=" " alt="" coords="164,300,379,465"/>
-<area shape="rect" id="node2" href="$class_mono_behaviour.html" title=" " alt="" coords="5,5,116,83"/>
-<area shape="rect" id="node3" href="$class_screen_opts.html" title=" " alt="" coords="201,145,342,237"/>
-<area shape="rect" id="node4" title=" " alt="" coords="301,5,356,83"/>
-<area shape="rect" id="node5" title=" " alt="" coords="527,5,565,83"/>
-<area shape="rect" id="node6" title=" " alt="" coords="141,5,277,83"/>
-</map>
