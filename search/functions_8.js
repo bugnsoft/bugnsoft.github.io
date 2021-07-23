@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['move_186',['Move',['../class_player_1_1_player_movement_controller.html#a0be7a244d0b4157466844ff49962b9d3',1,'Player::PlayerMovementController']]]
+  ['killplayer_221',['KillPlayer',['../class_game_manager.html#acd9f7a18fe0909e676c43419d92c05d0',1,'GameManager']]]
 ];

@@ -32,12 +32,12 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_mono_behaviour.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-447 0,-504 83,-504 83,-447 0,-447"/>
+<g id="a_node2"><a xlink:title=" ">
+<polygon fill="none" stroke="#bfbfbf" points="0,-447 0,-504 83,-504 83,-447 0,-447"/>
 <text text-anchor="middle" x="41.5" y="-492" font-family="Helvetica,sans-Serif" font-size="10.00">MonoBehaviour</text>
-<polyline fill="none" stroke="black" points="0,-485 83,-485 "/>
+<polyline fill="none" stroke="#bfbfbf" points="0,-485 83,-485 "/>
 <text text-anchor="middle" x="41.5" y="-473" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="0,-466 83,-466 "/>
+<polyline fill="none" stroke="#bfbfbf" points="0,-466 83,-466 "/>
 <text text-anchor="middle" x="41.5" y="-454" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 </a>
 </g>

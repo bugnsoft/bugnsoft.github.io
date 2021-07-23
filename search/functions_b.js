@@ -1,11 +1,10 @@
 var searchData=
 [
-  ['setcamerafollowtarget_193',['SetCameraFollowTarget',['../class_game_manager.html#ac90861ad3f0db34a7d4822dd2752f3e4',1,'GameManager']]],
-  ['setcameraoffset_194',['SetCameraOffset',['../class_game_manager.html#ac491e8035ae306a6f044edaacca4baad',1,'GameManager']]],
-  ['setcameraoffsetx_195',['SetCameraOffsetX',['../class_game_manager.html#a6783082d5c3c2fa33c5c742ae561d849',1,'GameManager']]],
-  ['setcameraoffsety_196',['SetCameraOffsetY',['../class_game_manager.html#aad89980726bfef19f3bfbf70e8b71df4',1,'GameManager']]],
-  ['setcamerasize_197',['SetCameraSize',['../class_game_manager.html#a6f91c320f36ce02a0fe46db438559fbd',1,'GameManager']]],
-  ['setcameratarget_198',['SetCameraTarget',['../class_game_manager.html#a58292741c284f669fe5ad1f88b7cc2e7',1,'GameManager']]],
-  ['setinputenabled_199',['SetInputEnabled',['../class_game_manager.html#a1958e4615038d8c1150e94148046e95c',1,'GameManager']]],
-  ['setinputenabledui_200',['SetInputEnabledUI',['../class_game_manager.html#a757f82d550407141ae8778f86fef4755',1,'GameManager']]]
+  ['onairevt_224',['OnAirEvt',['../class_player_1_1_player_controller.html#a1ba6d060d7b261a470dcf88a56c91d2c',1,'Player::PlayerController']]],
+  ['onfixedupdate_225',['OnFixedUpdate',['../class_controllers_1_1_base_controller.html#ad63de32afa127f2093c56f9646dd71bd',1,'Controllers::BaseController']]],
+  ['onlocaleselected_226',['OnLocaleSelected',['../class_main_menu.html#a718d772ba5a04d1399b04c692dfa2687',1,'MainMenu']]],
+  ['onpointerenter_227',['OnPointerEnter',['../class_u_i___button_menu.html#ab3e44681a1080376da078583e90abf2b',1,'UI_ButtonMenu']]],
+  ['onpointerexit_228',['OnPointerExit',['../class_u_i___button_menu.html#ab8ee7aca0a23d825b3c838051f8f361e',1,'UI_ButtonMenu']]],
+  ['onstart_229',['OnStart',['../class_controllers_1_1_base_controller.html#a3b5d6f8e30afb337cfef0476b9c96794',1,'Controllers.BaseController.OnStart()'],['../class_controllers_1_1_dummy_controller.html#af9b89f46960d7c5ea635d362eddd6c0c',1,'Controllers.DummyController.OnStart()']]],
+  ['onupdate_230',['OnUpdate',['../class_controllers_1_1_base_controller.html#a7b6b51e81a8ef74dae3683b9f77c75fd',1,'Controllers::BaseController']]]
 ];

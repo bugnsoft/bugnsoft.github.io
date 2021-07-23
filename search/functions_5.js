@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['isfacingright_183',['IsFacingRight',['../class_player_1_1_player_controller.html#a22a7b7412369886a44625d422b8f6390',1,'Player.PlayerController.IsFacingRight()'],['../class_player_1_1_player_movement_controller.html#a79c5d43cd2f86f288766ab004881c41e',1,'Player.PlayerMovementController.IsFacingRight()']]]
+  ['fadepanel_213',['FadePanel',['../class_u_i___panel_opacity.html#ac7c3e74bf5b98c653645e7e13d96954f',1,'UI_PanelOpacity']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['landevt_185',['LandEvt',['../class_player_1_1_player_controller.html#aba2c051f9e9c201028134639bcc57c84',1,'Player::PlayerController']]]
+  ['isfacingright_220',['IsFacingRight',['../class_player_1_1_player_controller.html#a22a7b7412369886a44625d422b8f6390',1,'Player.PlayerController.IsFacingRight()'],['../class_player_1_1_player_movement_controller.html#a79c5d43cd2f86f288766ab004881c41e',1,'Player.PlayerMovementController.IsFacingRight()']]]
 ];

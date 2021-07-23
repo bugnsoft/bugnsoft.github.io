@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['respawnplayer_192',['RespawnPlayer',['../class_game_manager.html#a44c6619c9e08cf4d3ab1da3c1b96b581',1,'GameManager']]]
+  ['move_223',['Move',['../class_player_1_1_player_movement_controller.html#a0be7a244d0b4157466844ff49962b9d3',1,'Player::PlayerMovementController']]]
 ];
