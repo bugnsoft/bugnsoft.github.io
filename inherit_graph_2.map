@@ -1,5 +1,6 @@
 <map id="Representación gráfica de la clase" name="Representación gráfica de la clase">
-<area shape="rect" id="node1" href="$interface_controllers_1_1_i_damageable.html" title="Interfaz para todos los NPCs/Enemigos/Objetos que pueden ser daniados." alt="" coords="5,5,168,32"/>
-<area shape="rect" id="node2" href="$class_controllers_1_1_base_controller.html" title=" " alt="" coords="216,5,389,32"/>
+<area shape="rect" id="node1" href="$interface_controllers_1_1_i_damageable.html" title="Interfaz para todos los NPCs/Enemigos/Objetos que pueden ser daniados." alt="" coords="5,31,168,57"/>
+<area shape="rect" id="node2" href="$class_controllers_1_1_base_controller.html" title=" " alt="" coords="216,31,389,57"/>
 <area shape="rect" id="node3" href="$class_controllers_1_1_dummy_controller.html" title=" " alt="" coords="437,5,625,32"/>
+<area shape="rect" id="node4" href="$class_controllers_1_1_njord_controller.html" title=" " alt="" coords="445,56,618,83"/>
 </map>

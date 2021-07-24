@@ -1,5 +1,6 @@
 <map id="Controllers.BaseController" name="Controllers.BaseController">
-<area shape="rect" id="node1" title=" " alt="" coords="5,145,224,516"/>
-<area shape="rect" id="node3" href="$class_controllers_1_1_dummy_controller.html" title=" " alt="" coords="21,564,209,641"/>
-<area shape="rect" id="node2" href="$interface_controllers_1_1_i_damageable.html" title="Interfaz para todos los NPCs/Enemigos/Objetos que pueden ser daniados." alt="" coords="21,5,208,97"/>
+<area shape="rect" id="node1" title=" " alt="" coords="87,145,317,589"/>
+<area shape="rect" id="node3" href="$class_controllers_1_1_dummy_controller.html" title=" " alt="" coords="5,637,193,715"/>
+<area shape="rect" id="node4" href="$class_controllers_1_1_njord_controller.html" title=" " alt="" coords="218,637,391,715"/>
+<area shape="rect" id="node2" href="$interface_controllers_1_1_i_damageable.html" title="Interfaz para todos los NPCs/Enemigos/Objetos que pueden ser daniados." alt="" coords="109,5,295,97"/>
 </map>

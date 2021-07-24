@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['torchcomponent_167',['TorchComponent',['../class_items_1_1_torch_component.html',1,'Items']]]
+  ['screenopts_174',['ScreenOpts',['../class_screen_opts.html',1,'']]]
 ];
