@@ -1,0 +1,6 @@
+<map id="Controllers.Froggy.FroggyController" name="Controllers.Froggy.FroggyController">
+<area shape="rect" id="node1" title=" " alt="" coords="101,931,315,1081"/>
+<area shape="rect" id="node2" href="$class_controllers_1_1_base_controller.html" title=" " alt="" coords="93,292,323,883"/>
+<area shape="rect" id="node3" href="$interface_controllers_1_1_i_damageable.html" title="Interfaz para todos los NPCs/Enemigos/Objetos que pueden ser daniados." alt="" coords="5,71,192,178"/>
+<area shape="rect" id="node4" href="$interface_interactions_1_1_interfaces_1_1_i_interactive.html" title=" " alt="" coords="217,5,418,244"/>
+</map>

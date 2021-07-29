@@ -1,0 +1,14 @@
+<map id="Representación gráfica de la clase" name="Representación gráfica de la clase">
+<area shape="rect" id="node1" title=" " alt="" coords="5,267,116,293"/>
+<area shape="rect" id="node2" href="$class_camera_trigger.html" title=" " alt="" coords="218,5,325,32"/>
+<area shape="rect" id="node3" href="$class_death_bounds_component.html" title=" " alt="" coords="188,56,355,83"/>
+<area shape="rect" id="node4" href="$class_image_animation.html" title=" " alt="" coords="214,107,329,133"/>
+<area shape="rect" id="node5" href="$class_main_menu.html" title="Script para el menu principal" alt="" coords="230,157,313,184"/>
+<area shape="rect" id="node6" href="$class_player_1_1_player_combat_controller.html" title=" " alt="" coords="171,208,371,235"/>
+<area shape="rect" id="node7" href="$class_player_1_1_player_ladder_climbing_controller.html" title=" " alt="" coords="177,259,366,301"/>
+<area shape="rect" id="node8" href="$class_player_1_1_player_movement_controller.html" title=" " alt="" coords="164,325,379,352"/>
+<area shape="rect" id="node9" href="$class_screen_opts.html" title=" " alt="" coords="226,376,317,403"/>
+<area shape="rect" id="node10" href="$class_u_i___joystick_controller.html" title=" " alt="" coords="199,427,343,453"/>
+<area shape="rect" id="node11" href="$class_u_i___panel_opacity.html" title=" " alt="" coords="212,477,331,504"/>
+<area shape="rect" id="node12" href="$class_u_i___pause_menu_manager.html" title=" " alt="" coords="191,528,351,555"/>
+</map>
