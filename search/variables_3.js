@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['interactionradius_334',['interactionRadius',['../class_player_1_1_player_controller.html#a234ec2bd79c1afe1be0419c042c305d9',1,'Player::PlayerController']]],
-  ['isenrolledindialogue_335',['isEnrolledInDialogue',['../class_player_1_1_player_controller.html#a657a5949963be4bdf7188a6b96b76073',1,'Player::PlayerController']]],
-  ['ismainmenu_336',['IsMainMenu',['../class_u_i___joystick_controller.html#a808f4019ce19482250b9c96feb560ec6',1,'UI_JoystickController']]]
+  ['damage_509',['damage',['../class_controllers_1_1_state_machine_1_1_states_1_1_data_1_1_attack_state_data.html#a0417d58fcd876dd0ba4adbdfcf818132',1,'Controllers::StateMachine::States::Data::AttackStateData']]],
+  ['destroyonend_510',['destroyOnEnd',['../class_image_animation.html#a566687ba7c68e0731fb85a1a9f7a69b4',1,'ImageAnimation']]],
+  ['duration_511',['duration',['../class_controllers_1_1_state_machine_1_1_states_1_1_data_1_1_attack_state_data.html#ac27567164808534b0a6907dd63a31595',1,'Controllers::StateMachine::States::Data::AttackStateData']]]
 ];

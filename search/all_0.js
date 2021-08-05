@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['animattackendevt_0',['AnimAttackEndEvt',['../class_player_1_1_player_combat_controller.html#a6969e421db81f3535961ec2acdbc17d0',1,'Player::PlayerCombatController']]],
-  ['animattackswingevt_1',['AnimAttackSwingEvt',['../class_player_1_1_player_combat_controller.html#a72002d0c26d691545f87b4222b461b5e',1,'Player::PlayerCombatController']]],
-  ['animfootstep1evt_2',['AnimFootStep1Evt',['../class_player_1_1_player_controller.html#a2f9bb18f0215998c89606a332a516730',1,'Player::PlayerController']]],
-  ['animfootstep2evt_3',['AnimFootStep2Evt',['../class_player_1_1_player_controller.html#af631c9f30312081023d3727401dbff32',1,'Player::PlayerController']]],
-  ['animhasattackanimationstartedevt_4',['AnimHasAttackAnimationStartedEvt',['../class_player_1_1_player_combat_controller.html#a382f08c73c12477a04827302fd9bd517',1,'Player::PlayerCombatController']]],
-  ['animrollendevt_5',['AnimRollEndEvt',['../class_player_1_1_player_controller.html#a11821f5265fd7308012e0494c026a3d0',1,'Player::PlayerController']]],
-  ['animstartprayingevt_6',['AnimStartPrayingEvt',['../class_player_1_1_player_controller.html#a674f1450eea2ca0eaa6b62b858ac652a',1,'Player::PlayerController']]]
+  ['_5fattackstate_0',['_attackState',['../class_controllers_1_1_froggy_1_1_froggy_controller.html#a7af8b48ff52a386d6e2e66c5f5fa4ae1',1,'Controllers::Froggy::FroggyController']]],
+  ['_5fidlestate_1',['_idleState',['../class_controllers_1_1_froggy_1_1_froggy_controller.html#adcfaa096ed8d079e98a51cb1a8c5c3a2',1,'Controllers::Froggy::FroggyController']]],
+  ['_5fjumpstate_2',['_jumpState',['../class_controllers_1_1_froggy_1_1_froggy_controller.html#aaf9a1811297522f0d95132db032b4594',1,'Controllers::Froggy::FroggyController']]],
+  ['_5fprepareattackstate_3',['_prepareAttackState',['../class_controllers_1_1_froggy_1_1_froggy_controller.html#a1945acc49cf35064abae21b8a1413d71',1,'Controllers::Froggy::FroggyController']]]
 ];

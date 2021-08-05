@@ -1,0 +1,10 @@
+<map id="Controllers.StateMachine.State" name="Controllers.StateMachine.State">
+<area shape="rect" id="node1" title="Clase base para los estados de cada personaje. Controla el ciclo de vida de cada estado (Enter,..." alt="" coords="483,5,677,259"/>
+<area shape="rect" id="node2" href="$class_controllers_1_1_state_machine_1_1_states_1_1_attack_state.html" title=" " alt="" coords="45,358,285,553"/>
+<area shape="rect" id="node4" href="$class_controllers_1_1_state_machine_1_1_states_1_1_idle_state.html" title=" " alt="" coords="319,321,559,589"/>
+<area shape="rect" id="node6" href="$class_controllers_1_1_state_machine_1_1_states_1_1_jump_state.html" title=" " alt="" coords="583,336,862,575"/>
+<area shape="rect" id="node7" href="$class_controllers_1_1_state_machine_1_1_states_1_1_prepare_attack_state.html" title=" " alt="" coords="887,307,1127,604"/>
+<area shape="rect" id="node3" href="$class_controllers_1_1_froggy_1_1_froggy___attack_state.html" title=" " alt="" coords="5,652,291,847"/>
+<area shape="rect" id="node5" href="$class_froggy___idle_state.html" title=" " alt="" coords="315,652,581,847"/>
+<area shape="rect" id="node8" href="$class_controllers_1_1_froggy_1_1_froggy___prepare_attack_state.html" title=" " alt="" coords="857,667,1156,832"/>
+</map>

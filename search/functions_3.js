@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['damage_274',['Damage',['../class_controllers_1_1_base_controller.html#a1a168a5667c509f299c842e6f4865deb',1,'Controllers.BaseController.Damage()'],['../interface_controllers_1_1_i_damageable.html#aba9cbd840a4819286033e126e527deac',1,'Controllers.IDamageable.Damage()']]],
-  ['disableflip_275',['DisableFlip',['../class_player_1_1_player_movement_controller.html#a288df97277a18a398dfd8e3f6d0853a7',1,'Player::PlayerMovementController']]],
-  ['dofade_276',['DoFade',['../class_main_menu.html#a8e56269bae2f637105da0c1df18874de',1,'MainMenu.DoFade()'],['../class_u_i___panel_opacity.html#ab13f9057158630172ec6afb93eddcb66',1,'UI_PanelOpacity.DoFade()']]],
-  ['drawgizmos_277',['DrawGizmos',['../class_controllers_1_1_base_controller.html#a8a861b2941b4640f08a720d9b7d1e0ef',1,'Controllers::BaseController']]]
+  ['damage_424',['Damage',['../class_controllers_1_1_base_controller.html#a1a168a5667c509f299c842e6f4865deb',1,'Controllers.BaseController.Damage(float amount, int attackN)'],['../class_controllers_1_1_base_controller.html#a45d842e466d436b7f0dfc89ee49fb16d',1,'Controllers.BaseController.Damage(BaseController controller, DamageInfo damageInfo)'],['../interface_controllers_1_1_i_damageable.html#aba9cbd840a4819286033e126e527deac',1,'Controllers.IDamageable.Damage(float amount, int attackN)'],['../interface_controllers_1_1_i_damageable.html#ac3ae63bcd2dda9494e46ad173bd40690',1,'Controllers.IDamageable.Damage(BaseController controller, DamageInfo damageInfo)'],['../class_player_1_1_player_controller.html#a5b7dd24597326bb16f0244dbdd8b68c5',1,'Player.PlayerController.Damage(float amount, int attackN)'],['../class_player_1_1_player_controller.html#ad7506b2b79b0cfd5e79ce70f7f313a46',1,'Player.PlayerController.Damage(BaseController controller, DamageInfo damageInfo)']]],
+  ['damageinfo_425',['DamageInfo',['../struct_controllers_1_1_damage_1_1_damage_info.html#ae7522627e95cfc569ab1c0277cdec9cf',1,'Controllers::Damage::DamageInfo']]],
+  ['disableflip_426',['DisableFlip',['../class_player_1_1_player_movement_controller.html#a288df97277a18a398dfd8e3f6d0853a7',1,'Player::PlayerMovementController']]],
+  ['dofade_427',['DoFade',['../class_main_menu.html#a8e56269bae2f637105da0c1df18874de',1,'MainMenu.DoFade()'],['../class_u_i___panel_opacity.html#ab13f9057158630172ec6afb93eddcb66',1,'UI_PanelOpacity.DoFade()']]]
 ];

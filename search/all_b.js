@@ -1,10 +1,5 @@
 var searchData=
 [
-  ['landevt_103',['LandEvt',['../class_player_1_1_player_controller.html#aba2c051f9e9c201028134639bcc57c84',1,'Player::PlayerController']]],
-  ['ledgeclimbxoffset1_104',['LedgeClimbXOffset1',['../class_player_1_1_player_movement_controller.html#a65a568426e3f94f39a2fe09bfb2de97d',1,'Player::PlayerMovementController']]],
-  ['ledgeclimbxoffset2_105',['LedgeClimbXOffset2',['../class_player_1_1_player_movement_controller.html#a8dca1f0325ddb3b6c9eebc6b7eab1639',1,'Player::PlayerMovementController']]],
-  ['ledgeclimbyoffset1_106',['LedgeClimbYOffset1',['../class_player_1_1_player_movement_controller.html#acd7a4b733ef6ca35213826ddb30ca280',1,'Player::PlayerMovementController']]],
-  ['ledgeclimbyoffset2_107',['LedgeClimbYOffset2',['../class_player_1_1_player_movement_controller.html#a05d853518fd66a988feecb307a6af811',1,'Player::PlayerMovementController']]],
-  ['localizestring_108',['localizeString',['../class_screen_opts.html#a245de8f0faafa9723c6830fa9d47e7df',1,'ScreenOpts']]],
-  ['loop_109',['loop',['../class_image_animation.html#a2c6aee5a55e4f86f360eb8297e51a5f2',1,'ImageAnimation']]]
+  ['kill_175',['Kill',['../class_controllers_1_1_base_controller.html#afe90dde87ac17f6c1b4be517338bab45',1,'Controllers.BaseController.Kill()'],['../interface_controllers_1_1_i_damageable.html#a5f8b2ad2aaa4768507cf6b93d6a13cef',1,'Controllers.IDamageable.Kill()'],['../class_player_1_1_player_controller.html#a3b87f2d93b9b92d1bbe07f8db0d66b3a',1,'Player.PlayerController.Kill()']]],
+  ['killplayer_176',['KillPlayer',['../class_game_manager.html#acd9f7a18fe0909e676c43419d92c05d0',1,'GameManager']]]
 ];

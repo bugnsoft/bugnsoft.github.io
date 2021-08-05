@@ -1,16 +1,18 @@
 var searchData=
 [
-  ['gainability_64',['GainAbility',['../namespace_interactions_1_1_enums.html#aab5a2fa558e3857167252f2e5b5898eba2d5fdfbb4b507a555b386f3a6123bc52',1,'Interactions::Enums']]],
-  ['gamemanager_65',['GameManager',['../class_game_manager.html',1,'']]],
-  ['gamemanager_2ecs_66',['GameManager.cs',['../_game_manager_8cs.html',1,'']]],
-  ['getanimator_67',['GetAnimator',['../class_controllers_1_1_base_controller.html#ae0ae6c1256e24359e5cf67cb76dfbf99',1,'Controllers::BaseController']]],
-  ['getcameraoffset_68',['GetCameraOffset',['../class_game_manager.html#ad797de9622d55d55fc7864224d3f1fa3',1,'GameManager']]],
-  ['getdialoguebubble_69',['GetDialogueBubble',['../class_controllers_1_1_base_controller.html#a500acf79da968f5a7afb805d1e6ce4ec',1,'Controllers::BaseController']]],
-  ['getisinputenabled_70',['GetIsInputEnabled',['../class_game_manager.html#ac3f34afc09dac53931c00f71400c0090',1,'GameManager']]],
-  ['getmainmenuon_71',['GetMainMenuOn',['../class_game_manager.html#a6d1d458142b66ad51e59af85c73a5e20',1,'GameManager']]],
-  ['getmainmenuphase_72',['GetMainMenuPhase',['../class_game_manager.html#ae84f467fa82403ffa1c1c1dacb58a207',1,'GameManager']]],
-  ['getmovementcontroller_3c_20t_20_3e_73',['GetMovementController&lt; T &gt;',['../class_controllers_1_1_base_controller.html#a6cabee79015319a31fcc194305c9ad51',1,'Controllers::BaseController']]],
-  ['getoffsets_74',['GetOffsets',['../class_camera_management_1_1_dynamic_camera.html#a73f5d8c47c57356db63f16748bea8e0e',1,'CameraManagement::DynamicCamera']]],
-  ['getplayercontrols_75',['GetPlayerControls',['../class_game_manager.html#ad95fdfb0908705f2e99fa8a3b91077cf',1,'GameManager']]],
-  ['getplayerdeathcount_76',['GetPlayerDeathCount',['../class_game_manager.html#a8ddf5e4ccc49ed3e684e41d3c4c74fcd',1,'GameManager']]]
+  ['facingdirection_98',['FacingDirection',['../class_controllers_1_1_base_controller.html#a852e62783568d6418d8a2cd18708f60d',1,'Controllers::BaseController']]],
+  ['fadepanel_99',['FadePanel',['../class_u_i___panel_opacity.html#ac7c3e74bf5b98c653645e7e13d96954f',1,'UI_PanelOpacity']]],
+  ['flip_100',['Flip',['../class_controllers_1_1_base_controller.html#a4c1d8a5b700c7c2e054a62364a9fddee',1,'Controllers::BaseController']]],
+  ['flipafteridle_101',['flipAfterIdle',['../class_controllers_1_1_state_machine_1_1_states_1_1_idle_state.html#abf3db5acdd122696adf97d2f0d349393',1,'Controllers::StateMachine::States::IdleState']]],
+  ['followplayerdirection_102',['followPlayerDirection',['../class_controllers_1_1_state_machine_1_1_states_1_1_data_1_1_prepare_attack_state_data.html#acd62fb021d3a14f4a62f64df0d4c7bed',1,'Controllers::StateMachine::States::Data::PrepareAttackStateData']]],
+  ['followtarget_103',['FollowTarget',['../class_camera_management_1_1_dynamic_camera.html#a458274a94dd0418ede06afcf26055c82',1,'CameraManagement::DynamicCamera']]],
+  ['froggy_104',['Froggy',['../namespace_controllers.html#a57e14994ef2400e21198b52c31931524a3d910bafad3c588153646f30a0981929',1,'Controllers']]],
+  ['froggy_5fattackstate_105',['Froggy_AttackState',['../class_controllers_1_1_froggy_1_1_froggy___attack_state.html',1,'Controllers.Froggy.Froggy_AttackState'],['../class_controllers_1_1_froggy_1_1_froggy___attack_state.html#ae57a8b812481494d8949eec396ee7992',1,'Controllers.Froggy.Froggy_AttackState.Froggy_AttackState()']]],
+  ['froggy_5fattackstate_2ecs_106',['Froggy_AttackState.cs',['../_froggy___attack_state_8cs.html',1,'']]],
+  ['froggy_5fidlestate_107',['Froggy_IdleState',['../class_froggy___idle_state.html',1,'Froggy_IdleState'],['../class_froggy___idle_state.html#acf52b7e5fb88b7d01f1ce6c104962fe3',1,'Froggy_IdleState.Froggy_IdleState()']]],
+  ['froggy_5fidlestate_2ecs_108',['Froggy_IdleState.cs',['../_froggy___idle_state_8cs.html',1,'']]],
+  ['froggy_5fprepareattackstate_109',['Froggy_PrepareAttackState',['../class_controllers_1_1_froggy_1_1_froggy___prepare_attack_state.html',1,'Controllers.Froggy.Froggy_PrepareAttackState'],['../class_controllers_1_1_froggy_1_1_froggy___prepare_attack_state.html#a57a4f2ccb05229ec4d6028baced3b462',1,'Controllers.Froggy.Froggy_PrepareAttackState.Froggy_PrepareAttackState()']]],
+  ['froggy_5fprepareattackstate_2ecs_110',['Froggy_PrepareAttackState.cs',['../_froggy___prepare_attack_state_8cs.html',1,'']]],
+  ['froggycontroller_111',['FroggyController',['../class_controllers_1_1_froggy_1_1_froggy_controller.html',1,'Controllers::Froggy']]],
+  ['froggycontroller_2ecs_112',['FroggyController.cs',['../_froggy_controller_8cs.html',1,'']]]
 ];

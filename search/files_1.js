@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['cameratrigger_2ecs_235',['CameraTrigger.cs',['../_camera_trigger_8cs.html',1,'']]]
+  ['basecontroller_2ecs_359',['BaseController.cs',['../_base_controller_8cs.html',1,'']]],
+  ['basemovementcontroller_2ecs_360',['BaseMovementController.cs',['../_base_movement_controller_8cs.html',1,'']]]
 ];

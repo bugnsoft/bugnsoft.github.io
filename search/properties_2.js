@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['instance_388',['Instance',['../class_dialogues_1_1_dialogue_manager.html#af1761d103193ace51101f6034ca1480e',1,'Dialogues.DialogueManager.Instance()'],['../class_game_manager.html#ad3e717f4fb0f378b969f4457de81f23e',1,'GameManager.Instance()']]]
+  ['currentstate_590',['CurrentState',['../class_controllers_1_1_state_machine_1_1_controller_state_machine.html#a5ff1a7c7b0f64449e514a7e5e89d16cc',1,'Controllers::StateMachine::ControllerStateMachine']]]
 ];

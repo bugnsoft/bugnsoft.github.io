@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['followtarget_387',['FollowTarget',['../class_camera_management_1_1_dynamic_camera.html#a458274a94dd0418ede06afcf26055c82',1,'CameraManagement::DynamicCamera']]]
+  ['attackxposition_589',['AttackXPosition',['../struct_controllers_1_1_damage_1_1_damage_info.html#ab75fa808bd5c89cf4cbd06ce14a47d52',1,'Controllers::Damage::DamageInfo']]]
 ];

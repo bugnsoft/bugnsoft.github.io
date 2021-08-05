@@ -22,9 +22,9 @@
   <div id="top"> <!-- do not remove this div, it is closed by doxygen! -->
     <nav class="title_area">
       <a class="project_logo" href="#">
-        <img src="Bug&Soft_Isologotipo_v1.png" width="30" height="30" alt="Logo">
+        <img src="Bug&Soft_Isologotipo_v3.png" width="30" height="30" alt="Logo">
       </a>
-      <span class="project_info">Bug&amp;Soft 0.2.10</span>
+      <span class="project_info">Bug&amp;Soft 0.3.12</span>
     </nav>
     <div class="main_container">
       <div class="navigation_container">
@@ -83,7 +83,7 @@ Diagrama de herencias de Controllers.IDamageable</div>
 <div class="dynheader">
 Diagrama de colaboración para Controllers.IDamageable:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="interface_controllers_1_1_i_damageable__coll__graph.svg" width="198" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="interface_controllers_1_1_i_damageable__coll__graph.svg" width="208" height="162"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -91,6 +91,9 @@ Métodos públicos</h2></td></tr>
 <tr class="memitem:aba9cbd840a4819286033e126e527deac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_controllers_1_1_i_damageable.html#aba9cbd840a4819286033e126e527deac">Damage</a> (float amount, int attackN)</td></tr>
 <tr class="memdesc:aba9cbd840a4819286033e126e527deac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metodo utilizado para inflingir danio a cualquiera que implemente este metodo.  <a href="interface_controllers_1_1_i_damageable.html#aba9cbd840a4819286033e126e527deac">Más...</a><br /></td></tr>
 <tr class="separator:aba9cbd840a4819286033e126e527deac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3ae63bcd2dda9494e46ad173bd40690"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_controllers_1_1_i_damageable.html#ac3ae63bcd2dda9494e46ad173bd40690">Damage</a> (<a class="el" href="class_controllers_1_1_base_controller.html">BaseController</a> controller, <a class="el" href="struct_controllers_1_1_damage_1_1_damage_info.html">DamageInfo</a> damageInfo)</td></tr>
+<tr class="memdesc:ac3ae63bcd2dda9494e46ad173bd40690"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metodo utilizado para inflingir danio utilizando el struct DamageInfo.  <a href="interface_controllers_1_1_i_damageable.html#ac3ae63bcd2dda9494e46ad173bd40690">Más...</a><br /></td></tr>
+<tr class="separator:ac3ae63bcd2dda9494e46ad173bd40690"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f8b2ad2aaa4768507cf6b93d6a13cef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_controllers_1_1_i_damageable.html#a5f8b2ad2aaa4768507cf6b93d6a13cef">Kill</a> ()</td></tr>
 <tr class="memdesc:a5f8b2ad2aaa4768507cf6b93d6a13cef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metodo utilizado para matar a un personaje  <a href="interface_controllers_1_1_i_damageable.html#a5f8b2ad2aaa4768507cf6b93d6a13cef">Más...</a><br /></td></tr>
 <tr class="separator:a5f8b2ad2aaa4768507cf6b93d6a13cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -99,8 +102,47 @@ Métodos públicos</h2></td></tr>
 <div class="textblock"><p>Interfaz para todos los NPCs/Enemigos/Objetos que pueden ser daniados. </p>
 <p><span class="emoji">&#x1f553;</span> Ultima actualizacion: v0.0.9 - 22/7/2021 - Nicolas Cabrera </p>
 </div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a id="ac3ae63bcd2dda9494e46ad173bd40690"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3ae63bcd2dda9494e46ad173bd40690">&#9670;&nbsp;</a></span>Damage() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Controllers.IDamageable.Damage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_controllers_1_1_base_controller.html">BaseController</a>&#160;</td>
+          <td class="paramname"><em>controller</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_controllers_1_1_damage_1_1_damage_info.html">DamageInfo</a>&#160;</td>
+          <td class="paramname"><em>damageInfo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Metodo utilizado para inflingir danio utilizando el struct DamageInfo. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">controller</td><td>Controlador del que inflinge damage.</td></tr>
+    <tr><td class="paramname">damageInfo</td><td>La informacion del damage.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="class_player_1_1_player_controller.html#ad7506b2b79b0cfd5e79ce70f7f313a46">Player.PlayerController</a> y <a class="el" href="class_controllers_1_1_base_controller.html#a45d842e466d436b7f0dfc89ee49fb16d">Controllers.BaseController</a>.</p>
+
+</div>
+</div>
 <a id="aba9cbd840a4819286033e126e527deac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba9cbd840a4819286033e126e527deac">&#9670;&nbsp;</a></span>Damage()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aba9cbd840a4819286033e126e527deac">&#9670;&nbsp;</a></span>Damage() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -134,7 +176,7 @@ Métodos públicos</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implementado en <a class="el" href="class_controllers_1_1_base_controller.html#a1a168a5667c509f299c842e6f4865deb">Controllers.BaseController</a>.</p>
+<p>Implementado en <a class="el" href="class_player_1_1_player_controller.html#a5b7dd24597326bb16f0244dbdd8b68c5">Player.PlayerController</a> y <a class="el" href="class_controllers_1_1_base_controller.html#a1a168a5667c509f299c842e6f4865deb">Controllers.BaseController</a>.</p>
 
 </div>
 </div>
@@ -155,7 +197,7 @@ Métodos públicos</h2></td></tr>
 
 <p>Metodo utilizado para matar a un personaje </p>
 
-<p>Implementado en <a class="el" href="class_controllers_1_1_base_controller.html#afe90dde87ac17f6c1b4be517338bab45">Controllers.BaseController</a>.</p>
+<p>Implementado en <a class="el" href="class_player_1_1_player_controller.html#a3b87f2d93b9b92d1bbe07f8db0d66b3a">Player.PlayerController</a> y <a class="el" href="class_controllers_1_1_base_controller.html#afe90dde87ac17f6c1b4be517338bab45">Controllers.BaseController</a>.</p>
 
 </div>
 </div>

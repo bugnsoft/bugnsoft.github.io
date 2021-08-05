@@ -1,13 +1,14 @@
 var searchData=
 [
-  ['cameramanagement_18',['CameraManagement',['../namespace_camera_management.html',1,'']]],
-  ['cameratrigger_19',['CameraTrigger',['../class_camera_trigger.html',1,'']]],
-  ['cameratrigger_2ecs_20',['CameraTrigger.cs',['../_camera_trigger_8cs.html',1,'']]],
-  ['changetarget_21',['ChangeTarget',['../class_camera_management_1_1_dynamic_camera.html#a097abe601b92ddc5395f4680bcee4c21',1,'CameraManagement::DynamicCamera']]],
-  ['characteranimator_22',['characterAnimator',['../class_controllers_1_1_base_controller.html#ab82ae3c813b3abd82af451189bc56c1e',1,'Controllers::BaseController']]],
-  ['controllerkind_23',['controllerKind',['../class_controllers_1_1_base_controller.html#a790e5a2ebe979b848cb2e1f9800a354e',1,'Controllers::BaseController']]],
-  ['controllers_24',['Controllers',['../namespace_controllers.html',1,'']]],
-  ['currentfps_25',['currentFPS',['../class_screen_opts.html#af34b77749586f74834b56e3b2968b010',1,'ScreenOpts']]],
-  ['froggy_26',['Froggy',['../namespace_controllers_1_1_froggy.html',1,'Controllers']]],
-  ['movement_27',['Movement',['../namespace_controllers_1_1_movement.html',1,'Controllers']]]
+  ['basecontroller_23',['BaseController',['../class_controllers_1_1_base_controller.html',1,'Controllers']]],
+  ['basecontroller_2ecs_24',['BaseController.cs',['../_base_controller_8cs.html',1,'']]],
+  ['basemovementcontroller_25',['baseMovementController',['../class_controllers_1_1_base_controller.html#a35eb61730f23c4846ab5b6e744c38743',1,'Controllers::BaseController']]],
+  ['basemovementcontroller_26',['BaseMovementController',['../class_controllers_1_1_movement_1_1_base_movement_controller.html',1,'Controllers::Movement']]],
+  ['basemovementcontroller_2ecs_27',['BaseMovementController.cs',['../_base_movement_controller_8cs.html',1,'']]],
+  ['boolevent_28',['BoolEvent',['../class_player_1_1_player_movement_controller_1_1_bool_event.html',1,'Player::PlayerMovementController']]],
+  ['btnplaycallback_29',['BtnPlayCallBack',['../class_main_menu.html#ae889f08a810c1bd7e9ede2a63048cd14',1,'MainMenu']]],
+  ['btnquitcallback_30',['BtnQuitCallback',['../class_main_menu.html#a0ab8f0213a363b39c2faebf6061a7c8f',1,'MainMenu']]],
+  ['btnsettingscallback_31',['BtnSettingsCallBack',['../class_main_menu.html#ad79a2153481bee0098ed4e3edbf64f2b',1,'MainMenu']]],
+  ['bug_26soft_20documentation_32',['Bug&amp;Soft Documentation',['../index.html',1,'']]],
+  ['buttonselector_33',['ButtonSelector',['../class_u_i___joystick_controller.html#a19ae80719b63a72625d128c42e54a7c4',1,'UI_JoystickController']]]
 ];

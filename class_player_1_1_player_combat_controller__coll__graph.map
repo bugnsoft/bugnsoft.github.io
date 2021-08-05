@@ -1,13 +1,5 @@
 <map id="Player.PlayerCombatController" name="Player.PlayerCombatController">
-<area shape="rect" id="node1" title=" " alt="" coords="157,889,367,1025"/>
-<area shape="rect" id="node2" title=" " alt="" coords="69,139,180,217"/>
-<area shape="rect" id="node3" href="$class_player_1_1_player_movement_controller.html" title=" " alt="" coords="637,331,852,555"/>
-<area shape="rect" id="node10" href="$class_player_1_1_player_ladder_climbing_controller.html" title=" " alt="" coords="35,397,225,489"/>
-<area shape="rect" id="node11" href="$class_player_1_1_player_controller.html" title=" " alt="" coords="357,617,548,827"/>
-<area shape="rect" id="node4" href="$class_player_1_1_player_movement_controller_1_1_bool_event.html" title=" " alt="" coords="742,132,961,224"/>
-<area shape="rect" id="node5" title=" " alt="" coords="785,5,917,83"/>
-<area shape="rect" id="node6" title=" " alt="" coords="985,139,1069,217"/>
-<area shape="rect" id="node7" title=" " alt="" coords="499,139,545,217"/>
-<area shape="rect" id="node8" title=" " alt="" coords="651,139,718,217"/>
-<area shape="rect" id="node9" title=" " alt="" coords="256,139,303,217"/>
+<area shape="rect" id="node1" title=" " alt="" coords="7,145,216,281"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,116,83"/>
+<area shape="rect" id="node3" title=" " alt="" coords="140,5,187,83"/>
 </map>

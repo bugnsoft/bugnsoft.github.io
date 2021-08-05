@@ -22,9 +22,9 @@
   <div id="top"> <!-- do not remove this div, it is closed by doxygen! -->
     <nav class="title_area">
       <a class="project_logo" href="#">
-        <img src="Bug&Soft_Isologotipo_v1.png" width="30" height="30" alt="Logo">
+        <img src="Bug&Soft_Isologotipo_v3.png" width="30" height="30" alt="Logo">
       </a>
-      <span class="project_info">Bug&amp;Soft 0.2.10</span>
+      <span class="project_info">Bug&amp;Soft 0.3.12</span>
     </nav>
     <div class="main_container">
       <div class="navigation_container">
@@ -67,8 +67,10 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-attribs">Atributos públicos</a> &#124;
 <a href="#pro-methods">Métodos protegidos</a> &#124;
 <a href="#pro-attribs">Atributos protegidos</a> &#124;
+<a href="#properties">Propiedades</a> &#124;
 <a href="class_controllers_1_1_base_controller-members.html">Lista de todos los miembros</a>  </div>
   <div class="headertitle">
 <div class="title">Referencia de la Clase Controllers.BaseController</div>  </div>
@@ -90,21 +92,43 @@ Diagrama de colaboración para Controllers.BaseController:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Métodos públicos</h2></td></tr>
-<tr class="memitem:a84c2fa09d553ffbfb94d725ccf9d69d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a84c2fa09d553ffbfb94d725ccf9d69d3">SwitchStates</a> (<a class="el" href="namespace_controllers.html#a65f48029496150d1da4d0a73a83f2989">ECharacterState</a> nextState)</td></tr>
-<tr class="memdesc:a84c2fa09d553ffbfb94d725ccf9d69d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cambia el estado actual del character. Primero llama al EXIT function del estado actual, luego llama al ENTER del siguiente !!!  <a href="class_controllers_1_1_base_controller.html#a84c2fa09d553ffbfb94d725ccf9d69d3">Más...</a><br /></td></tr>
-<tr class="separator:a84c2fa09d553ffbfb94d725ccf9d69d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c1d8a5b700c7c2e054a62364a9fddee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a4c1d8a5b700c7c2e054a62364a9fddee">Flip</a> ()</td></tr>
+<tr class="separator:a4c1d8a5b700c7c2e054a62364a9fddee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4896cadd98d95a53b0c59d041cb9bb16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a4896cadd98d95a53b0c59d041cb9bb16">SetVelocity</a> (float velocity)</td></tr>
+<tr class="separator:a4896cadd98d95a53b0c59d041cb9bb16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a140c9c1a55f9f0568aeecf26d01f60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a5a140c9c1a55f9f0568aeecf26d01f60">AddForce</a> (Vector2 newForce, bool isImpulse)</td></tr>
+<tr class="separator:a5a140c9c1a55f9f0568aeecf26d01f60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c5ed060b33cdcfbc3cb66a6847b1aed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a7c5ed060b33cdcfbc3cb66a6847b1aed">AddTorque</a> (float newTorque, bool isImpulse)</td></tr>
+<tr class="separator:a7c5ed060b33cdcfbc3cb66a6847b1aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cabee79015319a31fcc194305c9ad51"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a6cabee79015319a31fcc194305c9ad51">GetMovementController&lt; T &gt;</a> ()</td></tr>
 <tr class="memdesc:a6cabee79015319a31fcc194305c9ad51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtiene el controller de moviemento del personaje especificando que tipo de moviemnto usa en T  <a href="class_controllers_1_1_base_controller.html#a6cabee79015319a31fcc194305c9ad51">Más...</a><br /></td></tr>
 <tr class="separator:a6cabee79015319a31fcc194305c9ad51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0ae6c1256e24359e5cf67cb76dfbf99"><td class="memItemLeft" align="right" valign="top">Animator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#ae0ae6c1256e24359e5cf67cb76dfbf99">GetAnimator</a> ()</td></tr>
 <tr class="memdesc:ae0ae6c1256e24359e5cf67cb76dfbf99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtiene el animator del character  <a href="class_controllers_1_1_base_controller.html#ae0ae6c1256e24359e5cf67cb76dfbf99">Más...</a><br /></td></tr>
 <tr class="separator:ae0ae6c1256e24359e5cf67cb76dfbf99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3c9de69343b55cfc3eb24486b5f04b2"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#af3c9de69343b55cfc3eb24486b5f04b2">GetTransfrom</a> ()</td></tr>
+<tr class="separator:af3c9de69343b55cfc3eb24486b5f04b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a500acf79da968f5a7afb805d1e6ce4ec"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a500acf79da968f5a7afb805d1e6ce4ec">GetDialogueBubble</a> ()</td></tr>
-<tr class="memdesc:a500acf79da968f5a7afb805d1e6ce4ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtiene el animator del character  <a href="class_controllers_1_1_base_controller.html#a500acf79da968f5a7afb805d1e6ce4ec">Más...</a><br /></td></tr>
 <tr class="separator:a500acf79da968f5a7afb805d1e6ce4ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13db200c28b19173e4159504ce6fac77"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a13db200c28b19173e4159504ce6fac77">CheckWall</a> ()</td></tr>
+<tr class="separator:a13db200c28b19173e4159504ce6fac77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad122e81db776677faa8c182bfafb6ede"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#ad122e81db776677faa8c182bfafb6ede">CheckLedge</a> ()</td></tr>
+<tr class="separator:ad122e81db776677faa8c182bfafb6ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8eae1fe594f4ea809b8d6f42e2a2b3fa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a8eae1fe594f4ea809b8d6f42e2a2b3fa">CheckGround</a> ()</td></tr>
+<tr class="separator:a8eae1fe594f4ea809b8d6f42e2a2b3fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a645e5483bc95f7c1c2c754e468c69a26"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a645e5483bc95f7c1c2c754e468c69a26">CheckPlayerInRange</a> ()</td></tr>
+<tr class="separator:a645e5483bc95f7c1c2c754e468c69a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84c2fa09d553ffbfb94d725ccf9d69d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a84c2fa09d553ffbfb94d725ccf9d69d3">SwitchStates</a> (<a class="el" href="namespace_controllers.html#a65f48029496150d1da4d0a73a83f2989">ECharacterState</a> nextState)</td></tr>
+<tr class="memdesc:a84c2fa09d553ffbfb94d725ccf9d69d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cambia el estado actual del character. Primero llama al EXIT function del estado actual, luego llama al ENTER del siguiente !!!  <a href="class_controllers_1_1_base_controller.html#a84c2fa09d553ffbfb94d725ccf9d69d3">Más...</a><br /></td></tr>
+<tr class="separator:a84c2fa09d553ffbfb94d725ccf9d69d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad10ff3a586974765a836272c4fbfa79f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#ad10ff3a586974765a836272c4fbfa79f">Anim_PreparingAttackFinished</a> ()</td></tr>
+<tr class="separator:ad10ff3a586974765a836272c4fbfa79f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a168a5667c509f299c842e6f4865deb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a1a168a5667c509f299c842e6f4865deb">Damage</a> (float amount, int attackN)</td></tr>
 <tr class="memdesc:a1a168a5667c509f299c842e6f4865deb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metodo utilizado para inflingir danio a cualquiera que implemente este metodo.  <a href="class_controllers_1_1_base_controller.html#a1a168a5667c509f299c842e6f4865deb">Más...</a><br /></td></tr>
 <tr class="separator:a1a168a5667c509f299c842e6f4865deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45d842e466d436b7f0dfc89ee49fb16d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a45d842e466d436b7f0dfc89ee49fb16d">Damage</a> (<a class="el" href="class_controllers_1_1_base_controller.html">BaseController</a> controller, <a class="el" href="struct_controllers_1_1_damage_1_1_damage_info.html">DamageInfo</a> damageInfo)</td></tr>
+<tr class="memdesc:a45d842e466d436b7f0dfc89ee49fb16d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metodo utilizado para inflingir danio utilizando el struct DamageInfo.  <a href="class_controllers_1_1_base_controller.html#a45d842e466d436b7f0dfc89ee49fb16d">Más...</a><br /></td></tr>
+<tr class="separator:a45d842e466d436b7f0dfc89ee49fb16d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe90dde87ac17f6c1b4be517338bab45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#afe90dde87ac17f6c1b4be517338bab45">Kill</a> ()</td></tr>
 <tr class="memdesc:afe90dde87ac17f6c1b4be517338bab45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metodo utilizado para matar a un personaje  <a href="class_controllers_1_1_base_controller.html#afe90dde87ac17f6c1b4be517338bab45">Más...</a><br /></td></tr>
 <tr class="separator:afe90dde87ac17f6c1b4be517338bab45"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -121,20 +145,23 @@ Métodos públicos</h2></td></tr>
 <tr class="memdesc:a9a35d9f248d4d77645a6666a8e10dc05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comunica al NPC/Enemigo que se esta listo para iniciar una interaccion. Este metodo es el que inicia la animacion de la burbuja de dialogo o de interaccion !!!  <a href="class_controllers_1_1_base_controller.html#a9a35d9f248d4d77645a6666a8e10dc05">Más...</a><br /></td></tr>
 <tr class="separator:a9a35d9f248d4d77645a6666a8e10dc05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Atributos públicos</h2></td></tr>
+<tr class="memitem:ae313a2eed7e76094f7fe43e31153a63a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_controllers_1_1_state_machine_1_1_controller_state_machine.html">ControllerStateMachine</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#ae313a2eed7e76094f7fe43e31153a63a">StateMachine</a> = new <a class="el" href="class_controllers_1_1_state_machine_1_1_controller_state_machine.html">ControllerStateMachine</a>()</td></tr>
+<tr class="separator:ae313a2eed7e76094f7fe43e31153a63a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a9596d341eaed11f9195c451e44af66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_controllers_1_1_state_machine_1_1_states_1_1_data_1_1_controller_data.html">ControllerData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a8a9596d341eaed11f9195c451e44af66">ctrlData</a></td></tr>
+<tr class="separator:a8a9596d341eaed11f9195c451e44af66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a886385e47ef940d094485419986cc3f6"><td class="memItemLeft" align="right" valign="top">UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a886385e47ef940d094485419986cc3f6">OnLandEvent</a></td></tr>
+<tr class="separator:a886385e47ef940d094485419986cc3f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Métodos protegidos</h2></td></tr>
-<tr class="memitem:a3b5d6f8e30afb337cfef0476b9c96794"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a3b5d6f8e30afb337cfef0476b9c96794">OnStart</a> ()</td></tr>
-<tr class="separator:a3b5d6f8e30afb337cfef0476b9c96794"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b6b51e81a8ef74dae3683b9f77c75fd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a7b6b51e81a8ef74dae3683b9f77c75fd">OnUpdate</a> ()</td></tr>
-<tr class="separator:a7b6b51e81a8ef74dae3683b9f77c75fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad63de32afa127f2093c56f9646dd71bd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#ad63de32afa127f2093c56f9646dd71bd">OnFixedUpdate</a> ()</td></tr>
-<tr class="separator:ad63de32afa127f2093c56f9646dd71bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a861b2941b4640f08a720d9b7d1e0ef"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a8a861b2941b4640f08a720d9b7d1e0ef">DrawGizmos</a> ()</td></tr>
-<tr class="separator:a8a861b2941b4640f08a720d9b7d1e0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7978a4db877caab174d3e2d67c74aaae"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a7978a4db877caab174d3e2d67c74aaae">OnUpdateJumpingStateStart</a> ()</td></tr>
-<tr class="separator:a7978a4db877caab174d3e2d67c74aaae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2427f15fcd5024415fc5b4c0ee18ac0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#ad2427f15fcd5024415fc5b4c0ee18ac0">OnUpdateJumpingStateEnd</a> ()</td></tr>
-<tr class="separator:ad2427f15fcd5024415fc5b4c0ee18ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7587c2b4d937e3075f1674e4378a703f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a7587c2b4d937e3075f1674e4378a703f">Start</a> ()</td></tr>
+<tr class="separator:a7587c2b4d937e3075f1674e4378a703f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86050aabda0e86c8a21ae820dd4b7c9f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a86050aabda0e86c8a21ae820dd4b7c9f">OnDrawGizmos</a> ()</td></tr>
+<tr class="separator:a86050aabda0e86c8a21ae820dd4b7c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bc7d28813229decf927a9c86e60a293"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a6bc7d28813229decf927a9c86e60a293">OnEnterDeadStateStart</a> ()</td></tr>
+<tr class="separator:a6bc7d28813229decf927a9c86e60a293"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Atributos protegidos</h2></td></tr>
@@ -150,8 +177,19 @@ Atributos protegidos</h2></td></tr>
 <tr class="separator:afa2e67334f0464d63562b0fd8bc5b3a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33ea7bb23ffe10894a4e50691946d0c8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a33ea7bb23ffe10894a4e50691946d0c8">playerFacingDirection</a></td></tr>
 <tr class="separator:a33ea7bb23ffe10894a4e50691946d0c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61f889e6f8b46db4eb60c290c21991c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a61f889e6f8b46db4eb60c290c21991c5">playerOnLeft</a></td></tr>
-<tr class="separator:a61f889e6f8b46db4eb60c290c21991c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Propiedades</h2></td></tr>
+<tr class="memitem:a852e62783568d6418d8a2cd18708f60d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a852e62783568d6418d8a2cd18708f60d">FacingDirection</a> = 1<code> [get]</code></td></tr>
+<tr class="separator:a852e62783568d6418d8a2cd18708f60d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4f18e75da744eeb265375e0114328e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#aa4f18e75da744eeb265375e0114328e8">IsReadyToAttack</a><code> [get, set]</code></td></tr>
+<tr class="separator:aa4f18e75da744eeb265375e0114328e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afea110d190f29ebd262d731b3119a702"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#afea110d190f29ebd262d731b3119a702">wallDetected</a><code> [get]</code></td></tr>
+<tr class="separator:afea110d190f29ebd262d731b3119a702"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23b808cc4ae6939fc60eced3ddc4a441"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a23b808cc4ae6939fc60eced3ddc4a441">groundDetected</a><code> [get]</code></td></tr>
+<tr class="separator:a23b808cc4ae6939fc60eced3ddc4a441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b4d5e1293bd98e6e37e424faf043944"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controllers_1_1_base_controller.html#a7b4d5e1293bd98e6e37e424faf043944">topDetected</a><code> [get]</code></td></tr>
+<tr class="separator:a7b4d5e1293bd98e6e37e424faf043944"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
 <div class="textblock"><p>Controller basico para todos los NPCs/Enemigos/Neutrals.</p>
@@ -159,8 +197,188 @@ Atributos protegidos</h2></td></tr>
 <p>Vease la clase <a class="el" href="class_controllers_1_1_dummy_controller.html">DummyController</a></p>
 <p><span class="emoji">&#x1f553;</span> Ultima actualizacion: v0.0.9 - 22/7/2021 - Nicolas Cabrera </p>
 </div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a id="a5a140c9c1a55f9f0568aeecf26d01f60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a140c9c1a55f9f0568aeecf26d01f60">&#9670;&nbsp;</a></span>AddForce()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Controllers.BaseController.AddForce </td>
+          <td>(</td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>newForce</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isImpulse</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c5ed060b33cdcfbc3cb66a6847b1aed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c5ed060b33cdcfbc3cb66a6847b1aed">&#9670;&nbsp;</a></span>AddTorque()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Controllers.BaseController.AddTorque </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>newTorque</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isImpulse</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad10ff3a586974765a836272c4fbfa79f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad10ff3a586974765a836272c4fbfa79f">&#9670;&nbsp;</a></span>Anim_PreparingAttackFinished()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Controllers.BaseController.Anim_PreparingAttackFinished </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8eae1fe594f4ea809b8d6f42e2a2b3fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8eae1fe594f4ea809b8d6f42e2a2b3fa">&#9670;&nbsp;</a></span>CheckGround()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Controllers.BaseController.CheckGround </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad122e81db776677faa8c182bfafb6ede"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad122e81db776677faa8c182bfafb6ede">&#9670;&nbsp;</a></span>CheckLedge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Controllers.BaseController.CheckLedge </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a645e5483bc95f7c1c2c754e468c69a26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a645e5483bc95f7c1c2c754e468c69a26">&#9670;&nbsp;</a></span>CheckPlayerInRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Controllers.BaseController.CheckPlayerInRange </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a13db200c28b19173e4159504ce6fac77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13db200c28b19173e4159504ce6fac77">&#9670;&nbsp;</a></span>CheckWall()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Controllers.BaseController.CheckWall </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a45d842e466d436b7f0dfc89ee49fb16d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45d842e466d436b7f0dfc89ee49fb16d">&#9670;&nbsp;</a></span>Damage() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Controllers.BaseController.Damage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_controllers_1_1_base_controller.html">BaseController</a>&#160;</td>
+          <td class="paramname"><em>controller</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_controllers_1_1_damage_1_1_damage_info.html">DamageInfo</a>&#160;</td>
+          <td class="paramname"><em>damageInfo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Metodo utilizado para inflingir danio utilizando el struct DamageInfo. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">controller</td><td>Controlador del que inflinge damage.</td></tr>
+    <tr><td class="paramname">damageInfo</td><td>La informacion del damage.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interface_controllers_1_1_i_damageable.html#ac3ae63bcd2dda9494e46ad173bd40690">Controllers.IDamageable</a>.</p>
+
+</div>
+</div>
 <a id="a1a168a5667c509f299c842e6f4865deb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a168a5667c509f299c842e6f4865deb">&#9670;&nbsp;</a></span>Damage()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a168a5667c509f299c842e6f4865deb">&#9670;&nbsp;</a></span>Damage() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206,32 +424,20 @@ Atributos protegidos</h2></td></tr>
 
 </div>
 </div>
-<a id="a8a861b2941b4640f08a720d9b7d1e0ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a861b2941b4640f08a720d9b7d1e0ef">&#9670;&nbsp;</a></span>DrawGizmos()</h2>
+<a id="a4c1d8a5b700c7c2e054a62364a9fddee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c1d8a5b700c7c2e054a62364a9fddee">&#9670;&nbsp;</a></span>Flip()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Controllers.BaseController.DrawGizmos </td>
+          <td class="memname">void Controllers.BaseController.Flip </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p></p>
-<p>Este metodo se ejecuta en el OnDrawGizmos() del MonoBehaviour luego inicializar las variables necesarias.</p>
-<p>Al ser un metodo virtual, se encuentra vacio para que los super class lo implementen.</p>
 
 </div>
 </div>
@@ -270,9 +476,6 @@ Atributos protegidos</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Obtiene el animator del character </p>
-<dl class="section return"><dt>Devuelve</dt><dd>El animator del character</dd></dl>
-
 </div>
 </div>
 <a id="a6cabee79015319a31fcc194305c9ad51"></a>
@@ -306,6 +509,23 @@ Atributos protegidos</h2></td></tr>
 </dd>
 </dl>
 </div>
+
+</div>
+</div>
+<a id="af3c9de69343b55cfc3eb24486b5f04b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3c9de69343b55cfc3eb24486b5f04b2">&#9670;&nbsp;</a></span>GetTransfrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform Controllers.BaseController.GetTransfrom </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -410,8 +630,8 @@ Atributos protegidos</h2></td></tr>
 
 </div>
 </div>
-<a id="ad63de32afa127f2093c56f9646dd71bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad63de32afa127f2093c56f9646dd71bd">&#9670;&nbsp;</a></span>OnFixedUpdate()</h2>
+<a id="a86050aabda0e86c8a21ae820dd4b7c9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86050aabda0e86c8a21ae820dd4b7c9f">&#9670;&nbsp;</a></span>OnDrawGizmos()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -420,7 +640,7 @@ Atributos protegidos</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Controllers.BaseController.OnFixedUpdate </td>
+          <td class="memname">virtual void Controllers.BaseController.OnDrawGizmos </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -433,14 +653,10 @@ Atributos protegidos</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p></p>
-<p>Este metodo se ejecuta en el FixedUpdate() del MonoBehaviour luego inicializar las variables necesarias.</p>
-<p>Al ser un metodo virtual, se encuentra vacio para que los super class lo implementen.</p>
-
 </div>
 </div>
-<a id="a3b5d6f8e30afb337cfef0476b9c96794"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b5d6f8e30afb337cfef0476b9c96794">&#9670;&nbsp;</a></span>OnStart()</h2>
+<a id="a6bc7d28813229decf927a9c86e60a293"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bc7d28813229decf927a9c86e60a293">&#9670;&nbsp;</a></span>OnEnterDeadStateStart()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -449,7 +665,7 @@ Atributos protegidos</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Controllers.BaseController.OnStart </td>
+          <td class="memname">virtual void Controllers.BaseController.OnEnterDeadStateStart </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -462,94 +678,7 @@ Atributos protegidos</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p></p>
-<p>Este metodo se ejecuta en el Start() del MonoBehaviour luego inicializar las variables necesarias.</p>
-<p>Al ser un metodo virtual, se encuentra vacio para que los super class lo implementen.</p>
-
-<p>Reimplementado en <a class="el" href="class_controllers_1_1_njord_controller.html#aaabbc19f6ed04830b0eb291916e7529b">Controllers.NjordController</a>, <a class="el" href="class_controllers_1_1_froggy_1_1_froggy_controller.html#a8b15c9aaa6af2e0d3598f08a7b7e230f">Controllers.Froggy.FroggyController</a> y <a class="el" href="class_controllers_1_1_dummy_controller.html#af9b89f46960d7c5ea635d362eddd6c0c">Controllers.DummyController</a>.</p>
-
-</div>
-</div>
-<a id="a7b6b51e81a8ef74dae3683b9f77c75fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b6b51e81a8ef74dae3683b9f77c75fd">&#9670;&nbsp;</a></span>OnUpdate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void Controllers.BaseController.OnUpdate </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p></p>
-<p>Este metodo se ejecuta en el Update() del MonoBehaviour luego inicializar las variables necesarias.</p>
-<p>Al ser un metodo virtual, se encuentra vacio para que los super class lo implementen.</p>
-
-</div>
-</div>
-<a id="ad2427f15fcd5024415fc5b4c0ee18ac0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2427f15fcd5024415fc5b4c0ee18ac0">&#9670;&nbsp;</a></span>OnUpdateJumpingStateEnd()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void Controllers.BaseController.OnUpdateJumpingStateEnd </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplementado en <a class="el" href="class_controllers_1_1_froggy_1_1_froggy_controller.html#a8e0d80421d2cab0d3e640b3dc5f2de49">Controllers.Froggy.FroggyController</a>.</p>
-
-</div>
-</div>
-<a id="a7978a4db877caab174d3e2d67c74aaae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7978a4db877caab174d3e2d67c74aaae">&#9670;&nbsp;</a></span>OnUpdateJumpingStateStart()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool Controllers.BaseController.OnUpdateJumpingStateStart </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplementado en <a class="el" href="class_controllers_1_1_froggy_1_1_froggy_controller.html#a133d26327c65a2976fc024b7576ca849">Controllers.Froggy.FroggyController</a>.</p>
+<p>Reimplementado en <a class="el" href="class_controllers_1_1_froggy_1_1_froggy_controller.html#ad2c669fe64096f9c16f7ec0e20e9bf57">Controllers.Froggy.FroggyController</a>.</p>
 
 </div>
 </div>
@@ -628,6 +757,51 @@ Atributos protegidos</h2></td></tr>
 </dl>
 
 <p>Implementa <a class="el" href="interface_interactions_1_1_interfaces_1_1_i_interactive.html#ad6c473e06f8528928f1dd67bf556397a">Interactions.Interfaces.IInteractive</a>.</p>
+
+</div>
+</div>
+<a id="a4896cadd98d95a53b0c59d041cb9bb16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4896cadd98d95a53b0c59d041cb9bb16">&#9670;&nbsp;</a></span>SetVelocity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Controllers.BaseController.SetVelocity </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>velocity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7587c2b4d937e3075f1674e4378a703f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7587c2b4d937e3075f1674e4378a703f">&#9670;&nbsp;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Controllers.BaseController.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplementado en <a class="el" href="class_controllers_1_1_njord_controller.html#a43ae90d4a4ea897f8213ecc08507cdd1">Controllers.NjordController</a>, <a class="el" href="class_controllers_1_1_froggy_1_1_froggy_controller.html#a5fd62d0a8e4986b28c8afe2a72d828a3">Controllers.Froggy.FroggyController</a> y <a class="el" href="class_controllers_1_1_dummy_controller.html#af7633df969ef3a51ef2df2d0346b2908">Controllers.DummyController</a>.</p>
 
 </div>
 </div>
@@ -724,6 +898,34 @@ Atributos protegidos</h2></td></tr>
 
 </div>
 </div>
+<a id="a8a9596d341eaed11f9195c451e44af66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a9596d341eaed11f9195c451e44af66">&#9670;&nbsp;</a></span>ctrlData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_controllers_1_1_state_machine_1_1_states_1_1_data_1_1_controller_data.html">ControllerData</a> Controllers.BaseController.ctrlData</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a886385e47ef940d094485419986cc3f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a886385e47ef940d094485419986cc3f6">&#9670;&nbsp;</a></span>OnLandEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UnityEvent Controllers.BaseController.OnLandEvent</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afa2e67334f0464d63562b0fd8bc5b3a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afa2e67334f0464d63562b0fd8bc5b3a3">&#9670;&nbsp;</a></span>playerController</h2>
 
@@ -768,28 +970,6 @@ Atributos protegidos</h2></td></tr>
 
 </div>
 </div>
-<a id="a61f889e6f8b46db4eb60c290c21991c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61f889e6f8b46db4eb60c290c21991c5">&#9670;&nbsp;</a></span>playerOnLeft</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Controllers.BaseController.playerOnLeft</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a0d7f010f1a206c618bcb114737aa99ba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0d7f010f1a206c618bcb114737aa99ba">&#9670;&nbsp;</a></span>rigidbody2D</h2>
 
@@ -806,6 +986,131 @@ Atributos protegidos</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae313a2eed7e76094f7fe43e31153a63a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae313a2eed7e76094f7fe43e31153a63a">&#9670;&nbsp;</a></span>StateMachine</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_controllers_1_1_state_machine_1_1_controller_state_machine.html">ControllerStateMachine</a> Controllers.BaseController.StateMachine = new <a class="el" href="class_controllers_1_1_state_machine_1_1_controller_state_machine.html">ControllerStateMachine</a>()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de propiedades</h2>
+<a id="a852e62783568d6418d8a2cd18708f60d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a852e62783568d6418d8a2cd18708f60d">&#9670;&nbsp;</a></span>FacingDirection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Controllers.BaseController.FacingDirection = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a23b808cc4ae6939fc60eced3ddc4a441"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23b808cc4ae6939fc60eced3ddc4a441">&#9670;&nbsp;</a></span>groundDetected</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Controllers.BaseController.groundDetected</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa4f18e75da744eeb265375e0114328e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4f18e75da744eeb265375e0114328e8">&#9670;&nbsp;</a></span>IsReadyToAttack</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Controllers.BaseController.IsReadyToAttack</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b4d5e1293bd98e6e37e424faf043944"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b4d5e1293bd98e6e37e424faf043944">&#9670;&nbsp;</a></span>topDetected</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Controllers.BaseController.topDetected</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afea110d190f29ebd262d731b3119a702"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afea110d190f29ebd262d731b3119a702">&#9670;&nbsp;</a></span>wallDetected</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Controllers.BaseController.wallDetected</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

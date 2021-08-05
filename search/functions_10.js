@@ -1,7 +1,19 @@
 var searchData=
 [
-  ['updateoffset_324',['UpdateOffset',['../class_camera_management_1_1_dynamic_camera.html#ae1a8f047723e70ef91d02338aa707991',1,'CameraManagement::DynamicCamera']]],
-  ['updateoffsetx_325',['UpdateOffsetX',['../class_camera_management_1_1_dynamic_camera.html#add6f2fd171c0a1bb62817f16cc06ef62',1,'CameraManagement::DynamicCamera']]],
-  ['updateoffsety_326',['UpdateOffsetY',['../class_camera_management_1_1_dynamic_camera.html#a2ebfd46fb6d02d26145ee61b540d9022',1,'CameraManagement::DynamicCamera']]],
-  ['updatesize_327',['UpdateSize',['../class_camera_management_1_1_dynamic_camera.html#af775362dd25a2285f1f65192a904c105',1,'CameraManagement::DynamicCamera']]]
+  ['setcamerafollowtarget_475',['SetCameraFollowTarget',['../class_game_manager.html#ac90861ad3f0db34a7d4822dd2752f3e4',1,'GameManager']]],
+  ['setcameraoffset_476',['SetCameraOffset',['../class_game_manager.html#ac491e8035ae306a6f044edaacca4baad',1,'GameManager']]],
+  ['setcameraoffsetx_477',['SetCameraOffsetX',['../class_game_manager.html#a6783082d5c3c2fa33c5c742ae561d849',1,'GameManager']]],
+  ['setcameraoffsety_478',['SetCameraOffsetY',['../class_game_manager.html#aad89980726bfef19f3bfbf70e8b71df4',1,'GameManager']]],
+  ['setcamerasize_479',['SetCameraSize',['../class_game_manager.html#a864b9bb17a5ad6de75225faec0d19f7a',1,'GameManager']]],
+  ['setcameratarget_480',['SetCameraTarget',['../class_game_manager.html#a58292741c284f669fe5ad1f88b7cc2e7',1,'GameManager']]],
+  ['setflipafteridle_481',['SetFlipAfterIdle',['../class_controllers_1_1_state_machine_1_1_states_1_1_idle_state.html#a1c19c613293f4a1a0d23abb6c84dc036',1,'Controllers::StateMachine::States::IdleState']]],
+  ['setinputenabled_482',['SetInputEnabled',['../class_game_manager.html#a1958e4615038d8c1150e94148046e95c',1,'GameManager']]],
+  ['setmainmenuon_483',['SetMainMenuOn',['../class_game_manager.html#a119c038a9be8812061e41dc20f350c81',1,'GameManager']]],
+  ['setmainmenuphase_484',['SetMainMenuPhase',['../class_game_manager.html#a486d8bbec91ede71553e90e6731cfdc6',1,'GameManager']]],
+  ['setrandomidletime_485',['SetRandomIdleTime',['../class_controllers_1_1_state_machine_1_1_states_1_1_idle_state.html#ab7faef70a664d4d5a013c4f46d91efeb',1,'Controllers::StateMachine::States::IdleState']]],
+  ['setvelocity_486',['SetVelocity',['../class_controllers_1_1_base_controller.html#a4896cadd98d95a53b0c59d041cb9bb16',1,'Controllers::BaseController']]],
+  ['showdialogues_487',['ShowDialogues',['../class_dialogues_1_1_dialogue_manager.html#add9374c14450f385c3a8215ddd4a2468',1,'Dialogues::DialogueManager']]],
+  ['start_488',['Start',['../class_controllers_1_1_base_controller.html#a7587c2b4d937e3075f1674e4378a703f',1,'Controllers.BaseController.Start()'],['../class_controllers_1_1_dummy_controller.html#af7633df969ef3a51ef2df2d0346b2908',1,'Controllers.DummyController.Start()'],['../class_controllers_1_1_froggy_1_1_froggy_controller.html#a5fd62d0a8e4986b28c8afe2a72d828a3',1,'Controllers.Froggy.FroggyController.Start()'],['../class_controllers_1_1_njord_controller.html#a43ae90d4a4ea897f8213ecc08507cdd1',1,'Controllers.NjordController.Start()']]],
+  ['state_489',['State',['../class_controllers_1_1_state_machine_1_1_state.html#a3d0bac8ad31b0006a92dbd5f93ec8fa1',1,'Controllers::StateMachine::State']]],
+  ['switchstates_490',['SwitchStates',['../class_controllers_1_1_base_controller.html#a84c2fa09d553ffbfb94d725ccf9d69d3',1,'Controllers::BaseController']]]
 ];
