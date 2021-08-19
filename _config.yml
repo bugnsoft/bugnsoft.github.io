@@ -3,3 +3,6 @@ description: Official webpage of Bug&Soft.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-architect
+
+github:
+  zip_url: http://example.com/download.zip
