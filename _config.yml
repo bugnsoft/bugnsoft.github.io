@@ -5,6 +5,6 @@ google_analytics:
 theme: jekyll-theme-architect
 
 github:
-  zip_url: https://bugnsoft.github.io/Bug_and_Soft-master.zip
-  binarios: https://bugnsoft.github.io/PacoGame_0.5.5_Win_x86_64.zip
+  zip_url: https://bugnsoft.github.io/Bug_and_Soft-0.5.52.zip
+  binarios: https://bugnsoft.github.io/PacoGame_0.5.52_Win_x86_64
   is_user_page: false
