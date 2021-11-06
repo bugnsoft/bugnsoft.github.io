@@ -36,6 +36,11 @@
          height: 500px;
          background:black;
          ">
+		 <img src="PACO_AnAdventureBegins_LogoRemastered.png" style="
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+">
          <div style="
             position: absolute;
             z-index: 20;
@@ -68,58 +73,92 @@
          </video>
       </div>
    </header>
-   <div id="content-wrapper">
+   <div id="content-wrapper" style="border-top: 1px solid black;">
       <div class="inner clearfix">
          <section id="main-content">
-            {{ content }}
-            <img src="cute_froggy.gif" />
-            <img src="wise_njord.gif" />
+            <h1 style="
+               font-family: alagard;
+               color: white;
+               font-size: 48px;
+               text-shadow: 2px 2px #0017bf;
+               ">Welcome</h1>
+            <p style="
+               color: white;
+               font-family: pixeled;
+               text-transform: uppercase;
+               ">Paco an adventure begins es un juego lineal plataformero de aventuras Con una gran narrativa y sobre todo ***MUCHA, MUCHA*** accion.</p>
+            <p style="
+               color: white;
+               font-family: pixeled;
+               text-transform: uppercase;
+               ">SI TE GUSTA LA VELOCIDAD Y EL HUMOR NEGRO HAS ENCONTRADO EL CANDIDATO PERFECTO</p>
+            <p style="
+               color: white;
+               font-family: pixeled;
+               text-transform: uppercase;
+               padding-top: 67px;
+               ">tienes lo que se necesita para adentrarte en la mazmorra con paco?!</p>
+            <h1 style="
+               font-family: alagard;
+               color: white;
+               font-size: 48px;
+               text-shadow: 2px 2px #0017bf;
+               ">Nuestros clientes</h1>
+			   		 <img src="CXrmKEbWEAAXYYO.png">
+			   <p style="
+               color: white;
+               font-family: pixeled;
+               text-transform: uppercase;
+               padding-top: 67px;
+               ">"Este juego supero totalmente mis expectativas, es muy entretenido y tiene una historia muy interesante! Recomiendo al 100x100!!!"</p>
+			   
+			   			   		 <img src="scuderi.png">
+			   <p style="
+               color: white;
+               font-family: pixeled;
+               text-transform: uppercase;
+               padding-top: 67px;
+               ">"Muy satisfecho con este juego! Tiene unos bosses con una increible IA y muy divertidos!"</p>
          </section>
          <aside id="sidebar" style="background: transparent;">
-			<h3 style="padding-bottom: 11px; color: white; font-family: pixeled; margin-bottom: 10px;">DESCARGAS</h3>  
+            <h3 style="padding-bottom: 11px; color: white; font-family: pixeled; margin-bottom: 10px;">DESCARGAS</h3>
             {% if site.show_downloads %}
-			
-			<a href="{{ site.github.binarios }}" class="button" style="
-				background: url(../primaryButton.png);
-				background-repeat: no-repeat;
-				width: 200px;
-				font-family: &quot;Pixeled&quot;;
-				padding: 0;
-				text-align: center;
-				margin: 0;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				align-content: center;
-				flex-direction: column;">
-				<small style="padding-bottom: 11px;">INSTALADOR</small>
-			</a>
-			
             <a href="{{ site.github.binarios }}" class="button" style="
-				background: url(../errorButton.png);
-				background-repeat: no-repeat;
-				width: 200px;
-				font-family: &quot;Pixeled&quot;;
-				padding: 0;
-				text-align: center;
-				margin: 0;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				align-content: center;
-				flex-direction: column;">
-				<small style="padding-bottom: 11px;">SOURCE CODE</small>
-			</a>
-			
+               background: url(../primaryButton.png);
+               background-repeat: no-repeat;
+               width: 200px;
+               font-family: &quot;Pixeled&quot;;
+               padding: 0;
+               text-align: center;
+               margin: 0;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               align-content: center;
+               flex-direction: column;">
+            <small style="padding-bottom: 11px;">INSTALADOR</small>
+            </a>
+            <a href="{{ site.github.binarios }}" class="button" style="
+               background: url(../errorButton.png);
+               background-repeat: no-repeat;
+               width: 200px;
+               font-family: &quot;Pixeled&quot;;
+               padding: 0;
+               text-align: center;
+               margin: 0;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               align-content: center;
+               flex-direction: column;">
+            <small style="padding-bottom: 11px;">SOURCE CODE</small>
+            </a>
             {% endif %}
             {% if site.github.is_project_page %}
             <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
             {% endif %}
             <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</p>
          </aside>
-		 
-		 
-		 
       </div>
    </div>
 </body>
