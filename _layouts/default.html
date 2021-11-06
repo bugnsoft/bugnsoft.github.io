@@ -17,17 +17,36 @@
   </head>
 
   <body>
-    <header>
-      <div style="padding: 0;
+    <header style="
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    padding: 0;
+">
+      <div style="
+                  padding: 0;
+                  position: relative;
                   z-index: 3;
                   margin: 0;
                   overflow: hidden;
-                  max-height: 500px;">
-        <video style="z-index: 10;
+                  max-height: 500px;
+                  width: 100%;
+                  height: 500px;
+                  ">
+                  <div style="
+    position: absolute;
+    z-index: 20;
+    background: linear-gradient(90deg, black, #00000000);
+    height: 100%;
+    width: 500px;
+"></div>
+        <video style="
+                      z-index: 10;
                       vertical-align: bottom;
                       position: absolute;
-                      height: 100%;
-                      top: -50%;" controls>
+                      width: 100%;
+                      /* top: -50%; */0%; */
+                      " controls>
           <source src="vid.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
