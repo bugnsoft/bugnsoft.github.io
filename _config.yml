@@ -5,6 +5,6 @@ google_analytics:
 theme: jekyll-theme-architect
 
 github:
-  zip_url: https://bugnsoft.github.io/Paco-0.5.74-alpha.zip
-  binarios: https://bugnsoft.github.io/PacoGame_0.5.74_Win_x86_64.zip
+  instalador: https://bugnsoft.github.io/PacoSetup_1.0.2-release.exe
+  source: https://bugnsoft.github.io/Bug_and_Soft-1.0.2.zip
   is_user_page: false
