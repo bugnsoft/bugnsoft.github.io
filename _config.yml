@@ -1,11 +1,11 @@
+github:
+  instalador: https://bugnsoft.github.io/PacoSetup-Win64-v1.0.76.exe
+  is_user_page: false
+  version: v1.0.76
+  source: https://bugnsoft.github.io/Bug_and_Soft-1.0.2.zip
 title: Bug&Soft Official Site
+description: Official webpage of Bug&Soft.
 theme: jekyll-theme-architect
 google_analytics: 
-description: Official webpage of Bug&Soft.
 show_downloads: true
-github:
-  version: v1.0.75
-  source: https://bugnsoft.github.io/Bug_and_Soft-1.0.2.zip
-  instalador: https://bugnsoft.github.io/PacoSetup-Win64-v1.0.75.exe
-  is_user_page: false
 
