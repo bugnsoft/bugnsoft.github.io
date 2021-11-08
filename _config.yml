@@ -1,5 +1,6 @@
 github:
-  instalador: https://bugnsoft.github.io/PacoSetup-Win64-v1.0.2.exe
+  instalador: https://bugnsoft.github.io/PacoSetup-Win64-v1.0.67.exe
+  instalador_prof: https://bugnsoft.github.io/PacoSetup-Win64-v1.0.2.exe
   is_user_page: false
   version: v1.0.76
   source: https://bugnsoft.github.io/Bug_and_Soft-1.0.2.zip

@@ -395,8 +395,26 @@
                   ">
             </div>
          </section>
-         <aside id="sidebar" style="background: transparent;">
-            <h3 style="padding-bottom: 11px; color: white; font-family: pixeled; margin-bottom: 10px;">DESCARGAS ({{ site.github.version}})</h3>
+         <aside id="sidebar" style="background: transparent;">			
+			<h3 style="padding-bottom: 11px; color: white; font-family: pixeled; margin-bottom: 10px;">DESCARGAS (v1.0.2)</h3>
+            {% if site.show_downloads %}
+            <a href="{{ site.github.instalador_prof }}" class="button" style="
+               background: url(../primaryButton.png);
+               background-repeat: no-repeat;
+               width: 200px;
+               font-family: &quot;Pixeled&quot;;
+               padding: 0;
+               text-align: center;
+               margin: 0;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               align-content: center;
+               flex-direction: column;">
+            <small style="padding-bottom: 11px;">INSTALADOR PROFE</small>
+            </a>
+			
+			<h3 style="padding-bottom: 11px; color: white; font-family: pixeled; margin-bottom: 10px;">DESCARGAS ({{ site.github.version}})</h3>
             {% if site.show_downloads %}
             <a href="{{ site.github.instalador }}" class="button" style="
                background: url(../primaryButton.png);
@@ -411,8 +429,9 @@
                align-items: center;
                align-content: center;
                flex-direction: column;">
-            <small style="padding-bottom: 11px;">INSTALADOR</small>
-            </a>
+            <small style="padding-bottom: 11px;">INSTALADOR AUTO</small>
+			
+			
             <a href="{{ site.github.source }}" class="button" style="
                background: url(../errorButton.png);
                background-repeat: no-repeat;
